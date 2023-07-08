@@ -48,6 +48,7 @@ For this project I have divided the AA cells into three separate battery packs.
 | 1             | 3 cells in series       | Teensy 3.2 Vin 3.6-6.0V (used for daily updates) |
 | 2             | 2 cells in series       | Teensy 3.2 RTC only                   |
 | 3             | 4 or 6 cells in series  | Boost Converter powering the solenoid |
+
 Caution: Remove the batteries from pack 1 during programming. The batteries have a different voltage than the USB supply.
 Or see [here](https://www.pjrc.com/teensy/external_power.html) for other options.
 
